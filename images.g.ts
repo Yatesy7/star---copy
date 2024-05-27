@@ -38,25 +38,6 @@ namespace myImages {
 ....6588566666..6666658856....
 ...6666666.666..6666.666666...
 `;
-            case "image1":
-            case "Shocked Star":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . d d . . . . . . . 
-. . . . . . d c c d . . . . . . 
-. . . . . d d c c d d . . . . . 
-. c . . d c c c c c c d . . . . 
-d . c . d c d c c d c d . . . d 
-d a d d c c d c c d c c d d d d 
-d a c 1 a c c c c c c c a 1 a d 
-d 1 6 a 1 a a c c a a a c a 1 d 
-. d d 1 c 6 1 a a 6 a 1 6 d d . 
-. . a a d a c 6 6 c 6 a a . . . 
-. c a . d d 1 a a 6 a d . c c . 
-c . . d a c a a c a a c d . . . 
-. . . d c c c d a c c c d . . . 
-. . d c a c d . . d c c c d . . 
-. d d d d d . . . . d d d d d . 
-`;
             case "image3":
             case "Star":return img`
 . . . . . . . . . . . . . . . . 
@@ -352,6 +333,25 @@ ddaa66661166aaaaaaaa66661166aadd.55585..9588755..........
 ....ddaaaaaaddddddddaaaaaadd..5995.......................
 ..dddddddddd........dddddddddd.66........................
 ..dddddddddd........dddddddddd...........................
+`;
+            case "image1":
+            case "Shocked Star":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . d d . . . . . . . 
+. . . . . . d c c d . . . . . . 
+. . . . . d d c c d d . . . . . 
+. c . . d c c c c c c d . . . . 
+d . c . d c d c c d c d . . . d 
+d a d d c c d c c d c c d d d d 
+d a c e a c c c c c c c a e a d 
+d e b a e a a c c a a a c a e d 
+. d d e c b e a a b a e b d d . 
+. . a a d a c b b c b e a . . . 
+. c a . d d e b a b a d . c c . 
+c . . d a c a a c a a c d . . . 
+. . . d c c c d a c c c d . . . 
+. . d c a c d . . d c c c d . . 
+. d d d d d . . . . d d d d d . 
 `;
         }
         return null;
